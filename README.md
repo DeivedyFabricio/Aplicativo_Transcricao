@@ -1,20 +1,29 @@
-# Calculadora IMC
+# Aplicativo Transcricao
 
-Neste post apresento uma calculadora básica de IMC, utilizando e praticando JavaScript.
+Projeto de um sistema que transforma letras em quadrados, formando caracteres com pixels, permitindo visualizar letras de forma gráfica.
 
 ## Arquivos
 
-- `calcular.js`: script contendo todos os comandos JS para calcular o IMC e também retornar um status para o usuário.
-- `index.html`: arquivo principal, estrura base para apresentção e utilização da calculadora.
-- `style.html`: design e cores do sistema.
+- App.vue: contém os scripts JavaScript para processar a transcrição das letras e gerar a representação em pixels.
+
+- main.js: arquivo principal, que inicializa a aplicação e gerencia a interação com o usuário.
+
+- style.css: responsável pelo design, cores e layout da aplicação.
 
 ## Tecnologias
 
 - HTML
+
 - CSS
+
 - JavaScript
-- Vue
+
+- Vue.js
 
 ## Como usar
 
-Você pode importar os arquivos do GitHub para seu computador e, executar diretamente em seu navegador.
+1. Clone ou baixe os arquivos do repositório no GitHub.
+
+2. Abra os arquivos diretamente no navegador ou rode a aplicação com Vite.
+
+3. Digite as letras no input para ver a transcrição em quadrados pixelados na tela.
